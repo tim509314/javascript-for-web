@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>E-Portfolio</title>
+</head>
+<body>
+    <div class="bodyFilter">
+        <div class="navigation" style="width: 70px;">
+            <ul>
+                <li class="list">
+                    <a href = "#" class="backToTopBtn">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list" >
+                    <a href = "#idIntroduction" id="scrollToIntro">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">Introduction</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href = "#idCV" id="scrollToCV">
+                        <span class="icon">
+                            <ion-icon name="document-text-outline"></ion-icon>
+                        </span>
+                        <span class="text">CV</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href = "#idPortfolio" id="scrollToPortfolio">
+                        <span class="icon">
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                        </span>
+                        <span class="text">Portfolio</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href = "#idContact" id="scrollToContact">
+                        <span class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="welcome-page">
+            <div class="home">
+                <h1>Hello, I'm Tim Lou</h1>
+                <h2>And I'm a <span class="identity"></span></h2>
+                <p>Welcome to visit my e-Portfolio.</p>
+                <a href = "#idIntroduction" id="scrollToIntro"><button class="btn">More About Me</button></a>
+            </div>
+        
+            <div class="home-img">
+                <img src="image/home.png" alt="">
+            </div>
+        </section>
+    
+        <section class="introduction-page" id="idIntroduction">
+            <div class="introduction-page-left">
+                <div class="introduction-img">
+                    <img src="image/about.jpg" alt="">
+                </div>
+            </div>
+            <div class="introduction-page-right">
+                <div class="introduction-nav">
+                    <ul>
+                        <li class="list">
+                            <span class="text">Introduction</span>
+                        </li>
+                        <li class="list">
+                            <span class="text">Experience</span>
+                        </li>
+                        <li class="list">
+                            <span class="text">Skills</span>
+                        </li>
+                        <li class="list">
+                            <span class="text">Language</span>
+                        </li>
+                    </ul>
+                    <div id="marker"></div>
+                </div>
+                <div class="introduction-content">
+                    <div class="introduction-content-intro">
+                        <p>Hello, my name is Lou Tim Hung and you can call me Tim. Welcome to visit my e-Portfolio and I would introduce myself at below.</p>
+                        <p>I choose Higher diploma in multimedia as I like using different of designing software to drawing and designing, such as Photoshop and Illustrator. Moreover, I went to the talk held by the department and I am inspired by the achievements that the senior students got. I hope I would be one of them in the future.</p>
+                        <p>I want to be a teacher to tech multimedia to the student. I think using multimedia to design your own products or pictures can express your felling or shared. So that, I want to provide more opportunities to the beginning students to elevate their confidence and designing skills.</p>
+                        <p>Thank you for your kind reading and it is valuable chance for me to share my experience to you.</p>
+                    </div>
+                    <div class="introduction-content-Exp">
+                        <div class="cv-row">
+                            <div class="cv-column">
+                                <div class="cv-box">
+                                    <div class="cv-content">
+                                        <div class="content">
+                                            <div class="year"><ion-icon name="calendar-outline"></ion-icon>1/2014 - 5/2014 </div>
+                                            <h3>Mentorship Scheme Member</h3>
+                                        </div>
+                                    </div>
+                                    <div class="cv-content">
+                                        <div class="content">
+                                            <div class="year"><ion-icon name="calendar-outline"></ion-icon>12/2013 - 5/2014</div>
+                                            <h3> VTC Youth College(Tseung Kwan O) Students' Union-Handicraft Club Financial Secretary</h3>
+                                        </div>
+                                    </div>
+                                    <div class="cv-content">
+                                        <div class="content">
+                                            <div class="year"><ion-icon name="calendar-outline"></ion-icon>12/2013 - 5/2014</div>
+                                            <h3>VTC Youth College(Tseung Kwan O) Students' Union-Mathematics Club Vice-Chairman</h3>
+                                        </div>
+                                    </div>
+                                    <div class="cv-content">
+                                        <div class="content">
+                                            <div class="year"><ion-icon name="calendar-outline"></ion-icon>2009 - 2011</div>
+                                            <h3> Ning Po College Computer Club Vice-Chairman</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="introduction-content-Skills">
+                        <p>- Microsoft Office (Word, Excel and PowerPoint)</p>
+                        <p>- Adobe Photoshop, Illustrator, Flash, Dreamweaver, Premiere and After Effect</p>
+                        <p>- Corel VideoStudio</p>
+                        <p>- Audacity</p>
+                    </div>
+                    <div class="introduction-content-Language">
+                        <div class="radial-bars">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="content">
+                                <div class="text">Cantonese</div>
+                                <div class="percentage">Native</div>
+                            </div>
+                        </div>
+                        <div class="radial-bars">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="content">
+                                <div class="text">English</div>
+                                <div class="percentage">Fair</div>
+                            </div>
+                        </div>
+                        <div class="radial-bars">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="content">
+                                <div class="text">Mandarin</div>
+                                <div class="percentage">Fair</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="cv-page" id="idCV">
+            <div class="cv-row">
+                <div class="cv-column">
+                    <h3 class="title">Work Experience</h3>
+                    <div class="cv-box">
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>8/2022 - present</div>
+                                <h3>Broadcasting Technician</h3>
+                                <p>Buddhist Wong Wan Tin College.</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>2/2019 - 7/2022</div>
+                                <h3>Promoter</h3>
+                                <p>Brand's</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>2/2019 - 7/2022</div>
+                                <h3>Helper</h3>
+                                <p>Hong Kong Jockey Club</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>5/2020 - 6/2020</div>
+                                <h3>Video Editor</h3>
+                                <p>Nano Solution</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>2/2017 - 2/2019</div>
+                                <h3>Station Assistant Supervisor</h3>
+                                <p>MTR</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>9/2015 - 2/2017</div>
+                                <h3>Station Assistant</h3>
+                                <p>MTR</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>3/2015 - 1/2016</div>
+                                <h3>Teaching Assistant</h3>
+                                <p>Synergy Education</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon>3/2015 - 1/2016</div>
+                                <h3>Private tutor</h3>
+                                <p> - </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cv-column">
+                    <h3 class="title">Education</h3>
+    
+                    <div class="cv-box">
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2016 - 2018</div>
+                                <h3>Institute of Vocational Education [Sha Tin, New Territories]</h3>
+                                <p>Higher Diploma in Multimedia</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2011 - 2014</div>
+                                <h3>Youth College(Tseung Kwan O) [Tseung Kwan O, New Territories]</h3>
+                                <p>Diaploma in Vocational Education - Information Technology</p>
+                            </div>
+                        </div>
+                        <div class="cv-content">
+                            <div class="content">
+                                <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2006 - 2011</div>
+                                <h3>Ning Po College(Form 1 - Form 5) [Kwun Tong, Kowloon]</h3>
+                                <p> - </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="portfolio-page" id="idPortfolio">
+            <h3>Portfolio</h3>
+            <div class="portfolio-content">
+                <div class="row"> 
+                    <img src="image/artwork.jpg" alt="artwork">
+                    <div class="layer">
+                        <h5>Artworks</h5>
+                        <ion-icon name="exit-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="image/video.jpg" alt="artwork">
+                    <div class="layer">
+                        <h5>Videos</h5>
+                        <ion-icon name="exit-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="image/albums.jpg" alt="artwork">
+                    <div class="layer">
+                        <h5>Albums</h5>
+                        <ion-icon name="exit-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact-page" id="idContact">
+            <h1>Contact Me</h1>
+            <p>Email: tim509314@gmail.com</p>
+            <p>Phone: +852-xxxx-xxxx</p>
+            <div>
+                <button class="contact-btn">Contact Me</button>
+                <a href=""><button class="git-btn"><ion-icon name="logo-github"></ion-icon></button></a>
+            </div>
+        </section>
+
+    </div>
+        <div class="popup-wrapper hide">
+            <div class="popup">
+                <div class="popup-content">
+                    <h2>Please enter you email</h2>
+                    <input type="text" class="email" placeholder="Email" >
+                    <input type="text" class="message" placeholder="Message">
+                    <div><button>Send</button></div>
+                </div>
+            </div>
+        </div>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
